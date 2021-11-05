@@ -1,3 +1,9 @@
+e2fsprogs (1.46.4-1~orphan-file-2) unstable; urgency=medium
+
+  * Add orphan file support
+
+ -- Theodore Y. Ts'o <tytso@mit.edu>  Thu, 04 Nov 2021 20:24:44 -0400
+
 e2fsprogs (1.46.4-1) unstable; urgency=medium
 
   * New upstream release
