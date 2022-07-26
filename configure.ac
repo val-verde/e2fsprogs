@@ -544,7 +544,7 @@ then
 	AC_CHECK_LIB(blkid, blkid_get_cache,
 		[LIBBLKID=`$PKG_CONFIG --libs blkid`;
 		 STATIC_LIBBLKID=`$PKG_CONFIG --static --libs blkid`],
-		[AC_MSG_ERROR([external blkid library not found])], -luuid)
+		[AC_MSG_ERROR([external blkid library not found])], -lblkid)
 	BLKID_CMT=#
 	PROFILED_LIBBLKID=$LIBBLKID
 	AC_MSG_RESULT([Disabling private blkid library])
